@@ -1,0 +1,21 @@
+* [x] Header
+* [x] Main layout
+* [x] Weather data
+
+* [ ] Weather list item design
+* [ ] Weather widget item design
+
+* [ ] Temp unit conversion => C <-> K
+	* [x] Add ° if C
+
+* [ ] Wind speed conversion => m/s <-> km/h
+
+* [ ] Reformat css in multiple files
+
+* [ ] Responsive design
+	* [ ] Weather section
+	* [ ] Weather list
+	* [ ] Weather widget
+	* [ ] App title
+
+* [ ] Add Readme.md

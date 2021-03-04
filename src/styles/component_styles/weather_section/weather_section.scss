@@ -1,0 +1,67 @@
+.weather-container {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  // background: #333;
+}
+
+// Weather list styles
+.weather-list-container {
+  width: 65%;
+  // background: red;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .weather-day-container {
+    // background: grey;
+    width: 25%;
+
+    margin: 0 1em;
+    margin-bottom: 2em;
+    margin-top: 0;
+
+    padding: 0.8em;
+
+    box-shadow: 0px 2px 4px #333;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+// Weather widget styles
+.weather-widget-container {
+  width: 35%;
+  height: 50vh;
+
+  box-shadow: 0px 2px 4px #333;
+
+  .widget-day-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .widget-noday-container {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .widget-sun {
+      display: block;
+      width: 40%;
+    }
+  }
+}
